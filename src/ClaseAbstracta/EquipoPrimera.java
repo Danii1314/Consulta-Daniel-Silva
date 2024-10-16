@@ -1,7 +1,7 @@
 package ClaseAbstracta;
 import Interfaces.GestionEquipo;
 
-public abstract class EquipoPrimera extends EquipoFutbol implements GestionEquipo {
+public class EquipoPrimera extends EquipoFutbol implements GestionEquipo {
     private String entrenador;
     private double presupuesto;
 
